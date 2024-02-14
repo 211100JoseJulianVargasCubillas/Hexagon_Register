@@ -9,3 +9,7 @@ export const encrypt = async (textPlain:string) => {
 export const compare = async (passworPlain:string, passwordHas:string) => {
     return await bcrypt.compare(passworPlain, passwordHas)
 }
+
+
+
+
